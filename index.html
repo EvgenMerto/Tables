@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <style>
-    table {
+   table {
     width: 50%;
     border-collapse: collapse;
     margin: 20px auto;
@@ -12,14 +12,15 @@ th, td {
     padding: 20px;
     text-align: center;
     font-size: 18px;
+    transition: background-color 0.3s; /* Добавляем плавный переход */
 }
 
 tr:nth-child(even) {
     background-color: #d9d9d9;
 }
 
-tr:hover {
-    background-color: #c9c9c9;
+tr:hover td {
+    background-color: #c9c9c9; /* Цвет при наведении курсора */
 }
 </style>
 <head>
